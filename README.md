@@ -11,7 +11,9 @@ TiLense-4BlackBox-VLM is a tool designed to visualize and interpret the inner wo
 - Negar Golestani
 - Ali Soroush
 
-We are part of the Division of Data-Driven Decision Making (D3M) at the Icahn School of Medicine at Mount Sinai. For inquiries or collaboration, feel free to reach out to us at sdamirsa@gmail.com.
+We are part of the Division of Data-Driven Decision Making (D3M) at the Icahn School of Medicine at Mount Sinai. For inquiries or collaboration, feel free to reach out to us at sdamirsa@gmail.com. 
+
+_Images are provided by the Research Institute for Gastroenterology and Liver Diseases and the example images adhered to the ethical approval of Shahid Beheshti University of Medical Sciences (IR.SBMU.RIGLD.REC.1401.044)._
 
 </details>
 
