@@ -1,11 +1,23 @@
-
-
 # TiLense-4BlackBox-VLM
-TiLense-4BlackBox-VLM is a tool designed to visualize and interpret the inner workings of vision-language models (VLMs). By generating heatmaps that highlight important image regions (tiles) based on model prediction behavior. 
 
 [![GitHub stars](https://img.shields.io/github/stars/sdamirsa/TiLense-4BlackBox-VLM?style=social)](https://github.com/sdamirsa/TiLense-4BlackBox-VLM/stargazers)
 
-----
+TiLense-4BlackBox-VLM is a tool designed to visualize and interpret the inner workings of vision-language models (VLMs). By generating heatmaps that highlight important image regions (tiles) based on model prediction behaviour. 
+
+<details>
+<summary>Team and Contact</summary>
+   
+- Seyed Amir Ahmad Safavi-Naini
+- Negar Golestani
+- Ali Soroush
+
+We are part of the Division of Data-Driven Decision Making (D3M) at the Icahn School of Medicine at Mount Sinai. For inquiries or collaboration, feel free to reach out to us at sdamirsa@gmail.com.
+
+</details>
+
+This video will guide you on using the TiLense and run the code: [Link to video](https://youtu.be/uXJdhP3vyYk)
+
+# Description
 
 ### Approach 1: XAI-lense (base)
 This method aims to identify and visualize important image tiles in a vision-language task by calculating the importance of individual tiles (masked regions) based on the most common answer across multiple prediction runs for each image. Unlike more complex approaches, this method does not consider variations in the original image's answers but relies on a single prevalent (base) answer. The method consists of two main components: determining the prevalent answer and calculating the tile importance, followed by generating a heatmap to visualize these critical regions.
@@ -169,5 +181,9 @@ To summarize, the process of mask importance calculation involves:
 
 </details>
 
+----
+
 ### Approach 3: XAI-lense with ConNormLog: XXAI lense with Consistency Normalization and Logprob of VLM
 ...loading
+
+
