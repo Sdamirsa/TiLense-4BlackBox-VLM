@@ -93,10 +93,9 @@ This normalized importance score $I_{i,j}$ determines the transparency level of 
 
 To summarize, the process of mask importance calculation involves:
 
-1. **Answer Consistency**: Computing the frequency distribution of model predictions for each unmasked image.
-2. **Mask Importance**: For each masked region, calculate the deviation of the masked prediction from the original answer distribution.
-3. **Normalization**: Adjusting mask importance scores using the answer consistency from the unmasked image.
-4. **Visualization**: Showing the important tiles on the image overlay.
+1. **Base answer**: Finding the base answer (i.e, most prevalent, most consistent)
+2. **Mask Importance**: For each masked region, calculate the deviation of the masked prediction from the original answer (1 if all N runs are different, 0 if all N runs are similar to base answer).
+3. **Visualization**: Showing the important tiles on the image overlay.
 
 </details>
 
@@ -163,9 +162,10 @@ The heatmap visualizes important regions in images based on mask importance scor
 
 To summarize, the process of mask importance calculation involves:
 
-1. **Base answer**: Finding the base answer (i.e, most prevalent, most consistent)
-2. **Mask Importance**: For each masked region, calculate the deviation of the masked prediction from the original answer (1 if all N runs are different, 0 if all N runs are similar to base answer).
-3. **Visualization**: Showing the important tiles on the image overlay.
+1. **Answer Consistency**: Computing the frequency distribution of model predictions for each unmasked image.
+2. **Mask Importance**: For each masked region, calculate the deviation of the masked prediction from the original answer distribution.
+3. **Normalization**: Adjusting mask importance scores using the answer consistency from the unmasked image.
+4. **Visualization**: Showing the important tiles on the image overlay.
 
 </details>
 
