@@ -1,15 +1,9 @@
 
 
 # TiLense-4BlackBox-VLM
-TiLense-4BlackBox-VLM is a tool designed to visualize and interpret the inner workings of vision-language models (VLMs). By generating heatmaps that highlight important image regions (tiles) based on model prediction behavior.
+TiLense-4BlackBox-VLM is a tool designed to visualize and interpret the inner workings of vision-language models (VLMs). By generating heatmaps that highlight important image regions (tiles) based on model prediction behavior. 
 
 [![GitHub stars](https://img.shields.io/github/stars/sdamirsa/TiLense-4BlackBox-VLM?style=social)](https://github.com/sdamirsa/TiLense-4BlackBox-VLM/stargazers)
-
-
-
-
-# XAI_4blackBox_LLM
-This repo contains the code for adding explainability features for black-box multimodal large language models. This approach provides a reliable method to evaluate the contribution of different image regions in vision-language model predictions, yielding insights into the model’s decision-making process and enabling interpretable heatmaps.
 
 ----
 
