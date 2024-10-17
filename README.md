@@ -17,6 +17,27 @@ We are part of the Division of Data-Driven Decision Making (D3M) at the Icahn Sc
 
 This video will guide you on using the TiLense and run the code: [Link to video](https://youtu.be/uXJdhP3vyYk)
 
+## Example output
+
+<div align="center">
+   
+
+
+**➡️ Polyp Detection (Binary: polyp vs no-polyp)**
+
+| Polyp Detection Example 1 | Polyp Detection Example 2 |
+|:-----------------------:|:-----------------------:|
+| ![Polyp Detection 1](https://res.cloudinary.com/dlqbikbis/image/upload/v1729167240/336271_FIGURE_z1zqhy.png) | ![Polyp Detection 2](https://res.cloudinary.com/dlqbikbis/image/upload/v1729167238/343837_FIGURE_mvaoml.png) |
+
+
+**➡️ Severity Classification (Multi-class: 0, 1, 2, 3)**
+
+| Severity Grading Example 1 | Severity Grading Example 2 |
+|:-------------------------------:|:-------------------------------:|
+| ![Severity Classification 1](https://res.cloudinary.com/dlqbikbis/image/upload/v1729167218/10030-m1-16_FIGURE_a4hglu.png) | ![Severity Classification 2](https://res.cloudinary.com/dlqbikbis/image/upload/v1729167222/10010-m1-4_FIGURE_jjrwxz.png)
+
+</div>
+
 # Description
 
 ### Approach 1: XAI-lense (base)
